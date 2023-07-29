@@ -1,0 +1,13 @@
+*{
+    background-color: #2b2f2f;
+}
+.container{ 
+margin: 100px ;
+text-align: center;
+padding: 150px;
+background-color: #C0C0C0;
+font-size: 90px;
+}
+p{
+    background-color: #C0C0C0;
+}

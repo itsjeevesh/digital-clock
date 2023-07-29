@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+       
+</head>
+<body>
+   <div class="container">
+        <p id="demo"></p>
+    <script>
+        setInterval(myTime,1000);
+        function myTime(){
+        a = new Date();
+        document.getElementById("demo").innerHTML= a.getHours()+':'+a.getMinutes()+':'+a.getSeconds();
+        }
+        
+    </script>
+   </div>
+</body>
+</html> 
